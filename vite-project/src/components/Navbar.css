@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+  }
+  
+  .nav-links li:hover {
+    color: green;
+  }
+  
+  .small-menu p:hover {
+    background: #f5f5f5;
+  }
+  
+  .dropdown-menu, .browse-jobs-menu, .users-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+  }

@@ -1,0 +1,17 @@
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.button.default {
+  background-color: #ff5722;
+  color: white;
+}
+
+.button.link {
+  background: none;
+  color: #333;
+  text-decoration: underline;
+}

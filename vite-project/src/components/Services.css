@@ -1,0 +1,98 @@
+.services-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .services-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .services-header a {
+    font-size: 14px;
+    color: #0073ff;
+    text-decoration: none;
+  }
+  
+  .services-header a:hover {
+    text-decoration: underline;
+  }
+  
+  .services-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .service-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .service-info {
+    padding: 15px;
+  }
+  
+  .category {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .title:hover {
+    color: #008000; /* Green color on hover */
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #ffcc00;
+  }
+  
+  .seller {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-top: 10px;
+  }
+  

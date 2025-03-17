@@ -1,0 +1,81 @@
+.download-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    background:#1F4B3F;
+    position: relative;
+    /* height: 100vh; */
+  }
+  
+  .download-content {
+    max-width: 500px;
+    color: white;
+  }
+  
+  .start-button {
+    background: white;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    /* font-weight: bold; */
+    
+  }
+  
+  .start-button:hover {
+    background: black;
+    color: white;
+  }
+  
+  .download-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .download-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .app-store, .google-play {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    
+  }
+  
+  .app-store {
+    background:#4E6B5B;
+    color: white;
+  }
+  
+  .google-play {
+    background:#4E6B5B;
+    color: white;
+  }
+  
+  .download-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mobile-image {
+    width: 650px;
+    border-radius: 10px;
+  }
